@@ -2,6 +2,7 @@ package com.example.helloworld_app_ri;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,5 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnClick(View view) {
         this.textView.setText("My name is Raitis!");
+    }
+
+    public void onBtnClick2(View view) {
+        this.textView.setTextColor(Color.RED);
     }
 }
